@@ -1,0 +1,2 @@
+# LearningTypeScript
+This resource typescript
