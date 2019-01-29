@@ -20,3 +20,11 @@ console.log(ReturnNumber3(2,3));
 
 let ReturnStr = (a: string, b: string) => (a+': '+b);
 console.log(ReturnStr('FirstName','Son'));
+
+// 
+// class Car{
+//     Product = (params : string) => {console.log(params)};
+//     ColorProduct = (params : string) =>{return params };
+//     Producer = (params : string) => {return params}; 
+//     SpeedMax = (speed : number) =>{return speed};
+// }

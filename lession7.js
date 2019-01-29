@@ -19,6 +19,15 @@ var Color;
 ;
 var Colorex = Color.White;
 console.log(Colorex);
+var enumarr;
+(function (enumarr) {
+    enumarr[enumarr["a"] = 0] = "a";
+    enumarr[enumarr["b"] = 1] = "b";
+    enumarr[enumarr["c"] = 2] = "c";
+})(enumarr || (enumarr = {}));
+;
+var b1 = enumarr.a;
+console.log(enumarr[0]);
 //5. Kieu du lieu Array
 var arr1 = [1, 2, 3, 5, 6, 7];
 console.log(arr1);
